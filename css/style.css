@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'broncoregular';
+    src: url('../font/broncopersonaluse-webfont.woff') format('woff2'),
+         url('../font/broncopersonaluse-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    font-family: 'broncoregular';
+}
+body{
+    background: #263343;
+}
+.green{
+    color: #02ff00;
+}
+.ta-center{
+    text-align: center;
+}
+.old{
+    text-decoration: line-through;
+}
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.balance{
+    width: 1920px; 
+}
+.pr-1{
+    padding-right: 1em;
+}
+.pl-1{
+    padding-left: 1em;
+}
+.pt-1{
+    padding-top: 1em;
+}
+.pb-1{
+    padding-bottom: 1em;
+}
+.small{
+    font-size: 1.1em;
+}
+.medium{
+    font-size: 2em;
+}
+.logo{
+    width: 15rem;
+    line-height: 7rem;
+}
+nav img {
+    max-width: 100%;
+}
+.nav-item {
+    margin-left: 1rem;
+}
+.nav-item a{
+    color: white;
+    transition: 0.5s all;
+}
+.nav-item a:hover{
+    color: #02ff00;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #02ff00;
+}
+.navbar {
+    --bs-navbar-toggler-border-color: aliceblue;
+}
+.bg-body-tertiary{
+    background-image: linear-gradient(#263343 ,#016d01);
+}
+.kiwi{
+    color: #c5b1a4;
+    font-size: 2rem;
+    font-style: normal;
+}
+.ent{
+    color: #023b80;
+    font-style: normal;
+}
+.navbar-brand ,.navbar-nav a {
+    font-size: 1.5rem;
+}
+.dropdown-menu{
+    background-image: linear-gradient( to left,#016d01,#263343);
+}
+.navbar-toggler .fa-solid {
+    line-height: 1.8rem;
+    color: aliceblue;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.owl-carousel , .owl-nav button , .owl-prev , .owl-next {
+    display: none;
+}
+.owl-dot{
+    display: none;
+
+}
+.left {
+    color: white;
+}
+.carousel{
+    margin-top: -6.5rem;
+}
+#banner{
+    position: relative;
+}
+#banner h5 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+    max-width: 100%;
+}
+.box{
+    margin: 1rem 0;
+}
+
+input{
+    margin: auto;
+}
+input[type=text] {
+    
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+#banner p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;   
+}
+#carouselExample{
+    position: relative;
+    margin-top: -4rem;
+}
+#share-bar {
+    display: block;
+    position: fixed;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+.sharing-providers{
+    margin: 0;
+    padding: 0;
+    transition: 1s all;
+}
+.sharing-providers > li {
+    border-radius: 50%;
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 255, 0);
+    cursor: pointer;
+}
+.fa-brands {
+    color: rgb(35, 0, 95);
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+#share-bar ul li{
+    transition: 0.5s all;
+}
+#share-bar ul li:hover{
+    background: rgb(255, 27, 27);
+    
+    margin-left: 5px;
+}
+footer {
+    background: rgb(0, 0, 57) !important;
+}
+footer h4, footer p{
+    color: white;
+}
+@media only screen and (max-width: 992px) {
+    .logo{
+        width: 7rem;
+        line-height: 5rem;
+    }
+    .balance{
+        width: 730px; 
+    }
+    #carouselExample{
+        position: relative;
+        margin-top: -4rem;
+    }
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    #banner h5 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    #banner p{
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    footer h4, footer span {
+        color: white;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 7rem;
+        line-height: 4rem;
+    }
+    .balance{
+        width: 550px; 
+    }
+    #carouselExample{
+        position: relative;
+        margin-top: -4rem;
+    }
+    .carousel{
+        margin-top: -3.5rem;
+    }
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    #banner h5 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+    #banner p{
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        
+    }
+}
+@media only screen and (max-width: 576px) {
+    .logo{
+        width: 5rem;
+        line-height: 3rem;
+    }
+    .balance{
+        width: 250px; 
+    }
+    #carouselExample{
+        position: relative;
+        margin-top: -2rem;
+    }
+    .carousel{
+        margin-top: -1.5rem;
+    }
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    #banner h5 {
+        margin-top: 1rem;
+        color: white;
+        font-size: 1.3rem;
+        text-align: center;
+        
+    }
+    #banner p{
+        color: white;
+        font-size: 0.5rem;
+        text-align: center;
+        
+    }
+}

@@ -1,0 +1,519 @@
+@font-face {
+    font-family: 'broncoregular';
+    src: url('../font/broncopersonaluse-webfont.woff') format('woff2'),
+         url('../font/broncopersonaluse-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    font-family: 'broncoregular';
+}
+body{
+    background: #263343;
+}
+/*css popover*/
+
+/*css popover end
+
+/*kiwipay start*/
+.card {
+    max-width: 500px;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
+
+p {
+    margin: 0px;
+}
+.green{
+    color: #02ff00;
+}
+.ta-center{
+    text-align: center;
+}
+.old{
+    text-decoration: line-through;
+}
+.container .h8 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.pr-1{
+    padding-right: 1em;
+}
+.pl-1{
+    padding-left: 1em;
+}
+.small{
+    font-size: 1.1em;
+}
+.medium{
+    font-size: 2em;
+}
+.btn.btn-primary {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    background-image: linear-gradient(to right, #0C4160 0%, #02ff00 51%, #02ff00 100%);
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+}
+
+
+.btn.btn.btn-primary:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+    transform: translate(15px);
+    transition: transform 0.2s ease-in;
+}
+
+.form-control {
+    color: white;
+    animation: pay 3s infinite;
+    border: 2px solid transparent;
+    height: 60px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+@keyframes pay {
+    0% {background: #02ff00;}
+    25% {background: #263343;}
+    50% {background: #016d01;}
+    75% {background: #263343;}
+    100% {background: #02ff00;}
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #0C4160;
+    border: 2px solid #2d4dda;
+    box-shadow: none;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+::placeholder {
+    color: white !important;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 300;
+}
+/*kiwipay end*/
+.logo{
+    width: 15rem;
+    line-height: 7rem;
+}
+nav img {
+    max-width: 100%;
+}
+.nav-item {
+    margin-left: 1rem;
+}
+.nav-item a{
+    color: white;
+    transition: 0.5s all;
+}
+.nav-item a:hover{
+    color: #02ff00;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #02ff00;
+}
+.navbar {
+    --bs-navbar-toggler-border-color: aliceblue;
+}
+.bg-body-tertiary{
+    background-image: linear-gradient(#263343 ,#016d01);
+}
+
+.navbar-brand ,.navbar-nav a {
+    font-size: 1.5rem;
+}
+.dropdown-menu{
+    background-image: linear-gradient( to left,#016d01,#263343);
+}
+.navbar-toggler .fa-solid {
+    line-height: 1.8rem;
+    color: aliceblue;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+p {
+    margin: 0%;
+}
+
+#payment.container {
+    max-width: 900px;
+    overflow: hidden;
+}
+
+.box-1 {
+    max-width: 100%;
+    padding: 10px 40px;
+    user-select: none;
+}
+
+.box-1 div .fs-12 {
+    font-size: 8px;
+    color: white;
+}
+
+.box-1 div .fs-14 {
+    font-size: 15px;
+    color: white;
+}
+
+.box-1 img.pic {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.box-1 img.mobile-pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box-1 .name {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.dis {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+label.box {
+    width: 100%;
+    font-size: 12px;
+    background: #ddd;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+#one:checked~label.first,
+#two:checked~label.second,
+#three:checked~label.third {
+    border-color: #7700ff;
+}
+
+#one:checked~label.first .circle,
+#two:checked~label.second .circle,
+#three:checked~label.third .circle {
+    border-color: #7a34ca;
+    background-color: #fff;
+}
+
+label.box .course {
+    width: 100%;
+}
+
+label.box .circle {
+    height: 12px;
+    width: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid transparent;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.box-2 {
+    max-width: 100%;
+    padding: 10px 40px;
+}
+
+
+.box-2 .box-inner-2 input.form-control {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.box-2 .box-inner-2 .inputWithIcon {
+    position: relative;
+}
+
+.box-2 .box-inner-2 .inputWithIcon span {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+}
+
+.box-2 .box-inner-2 .inputWithcheck {
+    position: relative;
+}
+
+.box-2 .box-inner-2 .inputWithcheck span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    top: 6px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #7700ff;
+}
+
+.border:focus-within {
+    border: 1px solid #7700ff !important;
+}
+
+.box-2 .card-atm .form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.form-select {
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.address .form-control.zip {
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+
+}
+
+.address .form-control.state {
+    border-radius: 0;
+    border-bottom-right-radius: 10px;
+
+}
+
+.box-2 .box-inner-2 .btn.btn-outline-primary {
+    width: 120px;
+    padding: 10px;
+    font-size: 11px;
+    padding: 0% !important;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
+
+.box-2 .box-inner-2 .btn.btn-primary {
+    background-color: #7700ff;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    border: none;
+    padding: 10px;
+}
+
+.box-2 .box-inner-2 .btn.btn-primary:hover {
+    background-color: #7a34ca;
+}
+
+.box-2 .box-inner-2 .btn.btn-primary .fas {
+    font-size: 13px !important;
+    color: whitesmoke;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 250px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-control-prev {
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+.carousel-control-prev:hover .fas.fa-arrow-left {
+    transform: translateX(-5px);
+}
+
+.carousel-control-next {
+    transform: translateX(50%);
+    opacity: 1;
+}
+
+.carousel-control-next:hover .fas.fa-arrow-right {
+    transform: translateX(5px);
+}
+
+.fas.fa-arrow-left,
+.fas.fa-arrow-right {
+    font-size: 0.8rem;
+    transition: all .2s ease;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform-origin: center;
+    opacity: 1;
+}
+
+.fas,
+.fab {
+    color: #6d6c6d;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+#share-bar {
+    display: block;
+    position: fixed;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+.sharing-providers{
+    margin: 0;
+    padding: 0;
+    transition: 1s all;
+}
+.sharing-providers > li {
+    border-radius: 50%;
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 255, 0);
+    cursor: pointer;
+}
+.fa-brands {
+    color: rgb(35, 0, 95);
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+#share-bar ul li{
+    transition: 0.5s all;
+}
+#share-bar ul li:hover{
+    background: rgb(255, 27, 27);
+    
+    margin-left: 5px;
+}
+footer {
+    background: rgb(0, 0, 57) !important;
+}
+footer h4, footer p{
+    color: white;
+}
+@media only screen and (max-width: 992px) {
+    .logo{
+        width: 7rem;
+        line-height: 5rem;
+    }
+    
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    
+    footer h4, footer span {
+        color: white;
+        text-align: center;
+    }
+    footer p{
+        color: white;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 7rem;
+        line-height: 4rem;
+    }
+    
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .logo{
+        width: 5rem;
+        line-height: 3rem;
+    }
+    .row{
+        margin: 0 0.5rem;
+    }
+    .nav-item a{
+        color: white;
+        transition: 0.5s all;
+    }
+    .nav-item a:hover{
+        color: #02ff00;
+    }
+    
+}
